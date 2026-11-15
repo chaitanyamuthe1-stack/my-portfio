@@ -1,166 +1,118 @@
-import React from 'react';
-import { 
-  Mail, 
-  ArrowUp, 
-  Code2, 
-  Heart, 
-  Terminal,
-  Sparkles
-} from 'lucide-react';
-import { Github, Linkedin } from './BrandIcons';
-import { portfolioData } from '../data/portfolioData';
+import { ArrowUp, Mail } from "lucide-react";
+import { useReducedMotion } from "framer-motion";
+import { Github, Linkedin } from "./BrandIcons";
+import { portfolioData } from "../data/portfolioData";
 
-export default function Footer() {
+const socialItems = [
+  { id: "github", label: "GitHub", Icon: Github, external: true },
+  { id: "linkedin", label: "LinkedIn", Icon: Linkedin, external: true },
+  { id: "email", label: "Email", Icon: Mail, external: false },
+];
+
+export default function Footer({ navItems }) {
   const { personal } = portfolioData;
-
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
-  };
-
-  const navLinks = [
-    { label: 'Home', href: '#home' },
-    { label: 'About', href: '#about' },
-    { label: 'Education', href: '#education' },
-    { label: 'Skills', href: '#skills' },
-    { label: 'Projects', href: '#projects' },
-    { label: 'Experience', href: '#experience' },
-    { label: 'Certificates', href: '#certificates' },
-    { label: 'Achievements', href: '#achievements' },
-    { label: 'Resume', href: '#resume' },
-    { label: 'Contact', href: '#contact' },
-  ];
+  const prefersReducedMotion = useReducedMotion();
 
   return (
-    <footer className="relative bg-[#05070d] border-t border-white/10 pt-16 pb-12 overflow-hidden">
-      {/* Top subtle light line */}
-      <div className="absolute top-0 inset-x-0 h-[1px] bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
-
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-white/10">
-          
-          {/* Brand & Designation */}
-          <div className="md:col-span-5 space-y-4">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary via-[#566bff] to-secondary p-[1.5px] shadow-glow-blue">
-                <div className="w-full h-full bg-[#080B12] rounded-[10px] flex items-center justify-center">
-                  <span className="font-extrabold text-sm tracking-wider bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                    CM
-                  </span>
-                </div>
-              </div>
-              <div>
-                <span className="font-extrabold text-lg text-white tracking-tight block">
-                  CHAITANYA MUTHE
+    <footer className="relative overflow-hidden border-t border-white/[0.08] bg-[#05070d] px-4 py-10 sm:px-8 lg:px-12">
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-primary/45 to-transparent"
+      />
+      <div className="mx-auto max-w-7xl">
+        <div className="grid gap-10 md:grid-cols-[1fr_auto] md:items-start">
+          <div className="max-w-md">
+            <a
+              href="#home"
+              aria-label={`${personal.fullName}, back to home`}
+              className="inline-flex items-center gap-3"
+            >
+              <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-secondary p-px shadow-glow-blue">
+                <span className="flex h-full w-full items-center justify-center rounded-[11px] bg-[#080b12] text-sm font-bold tracking-wide text-white">
+                  CM
                 </span>
-                <span className="text-xs font-mono text-accentCyan">
-                  {personal.professionalTitle}
-                </span>
-              </div>
-            </div>
-
-            <p className="text-xs sm:text-sm text-textMuted leading-relaxed max-w-sm">
-              "{personal.personalBrandTagline}"
-            </p>
-
-            <div className="text-xs text-textMuted font-mono">
-              <span>{personal.college}</span> • <span>{personal.university}</span>
-            </div>
-          </div>
-
-          {/* Quick Navigation Links */}
-          <div className="md:col-span-4 space-y-3">
-            <span className="text-xs font-mono uppercase tracking-wider text-white font-semibold block">
-              Quick Navigation
-            </span>
-            <div className="grid grid-cols-2 gap-2 text-xs">
-              {navLinks.map((link) => (
-                <a
-                  key={link.label}
-                  href={link.href}
-                  className="text-textMuted hover:text-primary transition-colors py-1 flex items-center gap-1.5"
-                >
-                  <span className="text-primary/60 text-[10px]">›</span>
-                  <span>{link.label}</span>
-                </a>
-              ))}
-            </div>
-          </div>
-
-          {/* Social Profiles & Back to Top */}
-          <div className="md:col-span-3 space-y-4 flex flex-col justify-between">
-            <div>
-              <span className="text-xs font-mono uppercase tracking-wider text-white font-semibold block mb-3">
-                Connect With Me
               </span>
-              <div className="flex items-center gap-2.5">
-                <a
-                  href={personal.githubUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-2.5 rounded-xl bg-surface border border-white/10 text-textMuted hover:text-white hover:border-primary/50 transition-colors"
-                  aria-label="GitHub"
-                >
-                  <Github className="w-4 h-4" />
-                </a>
+              <span>
+                <span className="block text-sm font-semibold tracking-wide text-white">
+                  {personal.fullName}
+                </span>
+                <span className="mt-0.5 block text-xs text-textMuted">
+                  AI &amp; ML Engineering Student
+                </span>
+              </span>
+            </a>
 
-                <a
-                  href={personal.linkedinUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-2.5 rounded-xl bg-surface border border-white/10 text-textMuted hover:text-[#0A66C2] hover:border-[#0A66C2]/50 transition-colors"
-                  aria-label="LinkedIn"
-                >
-                  <Linkedin className="w-4 h-4" />
-                </a>
+            <div className="mt-6 flex flex-wrap items-center gap-2">
+              {socialItems.map(({ id, label, Icon, external }) => {
+                const value = personal.socialLinks[id];
+                const href = value
+                  ? id === "email"
+                    ? `mailto:${value}`
+                    : value
+                  : undefined;
+                const className =
+                  "flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-white/[0.035] text-textMuted transition hover:border-primary/40 hover:bg-primary/10 hover:text-white";
 
-                <a
-                  href={`mailto:${personal.email}`}
-                  className="p-2.5 rounded-xl bg-surface border border-white/10 text-textMuted hover:text-accentCyan hover:border-accentCyan/50 transition-colors"
-                  aria-label="Email"
-                >
-                  <Mail className="w-4 h-4" />
-                </a>
-
-                <a
-                  href={personal.leetcodeUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-2.5 rounded-xl bg-surface border border-white/10 text-textMuted hover:text-amber-400 hover:border-amber-400/50 transition-colors"
-                  aria-label="LeetCode"
-                >
-                  <Code2 className="w-4 h-4" />
-                </a>
-              </div>
-            </div>
-
-            <div>
-              <button
-                onClick={scrollToTop}
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-surfaceLight border border-white/10 hover:border-primary/50 text-xs font-semibold text-white transition-all shadow-sm group"
-              >
-                <span>Back to Top</span>
-                <ArrowUp className="w-3.5 h-3.5 text-primary group-hover:-translate-y-1 transition-transform" />
-              </button>
+                return href ? (
+                  <a
+                    key={id}
+                    href={href}
+                    target={external ? "_blank" : undefined}
+                    rel={external ? "noopener noreferrer" : undefined}
+                    aria-label={label}
+                    title={label}
+                    className={className}
+                  >
+                    <Icon className="h-[18px] w-[18px]" />
+                  </a>
+                ) : (
+                  <span
+                    key={id}
+                    aria-label={`${label} link not provided`}
+                    title={`${label} link not provided`}
+                    className={`${className} cursor-default opacity-60`}
+                  >
+                    <Icon className="h-[18px] w-[18px]" />
+                  </span>
+                );
+              })}
             </div>
           </div>
 
+          <nav aria-label="Footer navigation">
+            <p className="mb-3 font-mono text-[10px] uppercase tracking-[0.2em] text-textMuted">
+              Quick navigation
+            </p>
+            <ul className="grid grid-cols-2 gap-x-8 gap-y-2 sm:grid-cols-3">
+              {navItems.map(({ label, href }) => (
+                <li key={href}>
+                  <a
+                    href={href}
+                    className="flex min-h-11 items-center py-2 text-xs text-textMuted transition hover:text-accentCyan"
+                  >
+                    {label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
         </div>
 
-        {/* Bottom Bar */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-textMuted">
-          <div>
-            <span>Designed & Developed by </span>
-            <strong className="text-white">Chaitanya Muthe</strong>
-          </div>
-
-          <div className="flex items-center gap-2 text-center sm:text-right">
-            <span>© 2026 Chaitanya Muthe. All Rights Reserved.</span>
-          </div>
+        <div className="mt-9 flex flex-col gap-4 border-t border-white/[0.08] pt-5 text-xs text-textMuted sm:flex-row sm:items-center sm:justify-between">
+          <p>© 2026 {personal.fullName}. All rights reserved.</p>
+          <button
+            type="button"
+            onClick={() =>
+              window.scrollTo({
+                top: 0,
+                behavior: prefersReducedMotion ? "auto" : "smooth",
+              })
+            }
+            className="inline-flex min-h-11 w-fit items-center gap-2 py-2 text-textMuted transition hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accentCyan"
+          >
+            Back to top <ArrowUp size={14} className="text-primary" />
+          </button>
         </div>
-
       </div>
     </footer>
   );

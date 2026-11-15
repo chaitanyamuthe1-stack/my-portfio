@@ -70,3 +70,4 @@ export function HackerRank({ className = "w-5 h-5", ...props }) {
     </svg>
   );
 }
+
