@@ -109,3 +109,5 @@ Never commit `.env` files, API keys, passwords, or other credentials. The reposi
 Edit the topic-specific JavaScript files under `src/data/`. Profile and academic facts belong in `profile.js` and `education.js`; skill entries belong in `skills.js`. Add projects in `projects.js`, certificates in `certificates.js`, experience entries in `experience.js`, and achievements in `achievements.js`. These sections remain visible with labeled empty states until verified information is added.
 
 Profile information and section content live in `src/data/`. The résumé link points to `public/resume.pdf`.
+
+# myrepo
