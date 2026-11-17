@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="0" x2="1150" y2="750" gradientUnits="userSpaceOnUse"><stop stop-color="#11182C"/><stop offset="1" stop-color="#080B14"/></linearGradient>
+    <linearGradient id="accent" x1="806" y1="206" x2="1085" y2="515" gradientUnits="userSpaceOnUse"><stop stop-color="#8378FF"/><stop offset="1" stop-color="#36B9CE"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#02040A" flood-opacity=".5"/></filter>
+  </defs>
+  <rect width="1200" height="750" rx="28" fill="url(#bg)"/><circle cx="1040" cy="118" r="225" fill="#6C64ED" fill-opacity=".12"/>
+  <rect x="34" y="34" width="1132" height="682" rx="22" fill="#0B101A" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <path d="M56 35h1088a22 22 0 0 1 22 22v49H34V57a22 22 0 0 1 22-22Z" fill="#141927"/>
+  <circle cx="62" cy="68" r="7" fill="#FA6D6D"/><circle cx="86" cy="68" r="7" fill="#F5C45A"/><circle cx="110" cy="68" r="7" fill="#63D39B"/>
+  <circle cx="80" cy="146" r="19" fill="#252144"/><path d="m80 135 3 7 7 3-7 3-3 7-3-7-7-3 7-3 3-7Z" fill="#A99EFF"/>
+  <text x="110" y="143" fill="#F2F3F9" font-family="Arial,sans-serif" font-size="20" font-weight="700">Career Copilot</text>
+  <text x="110" y="164" fill="#8691A6" font-family="Arial,sans-serif" font-size="11">YOUR NEXT MOVE, MADE CLEARER</text>
+  <text x="66" y="222" fill="#F5F6FA" font-family="Arial,sans-serif" font-size="24" font-weight="700">Good morning, Chaitanya</text>
+  <text x="66" y="248" fill="#909BB0" font-family="Arial,sans-serif" font-size="13">Your career prep is moving forward. Here’s your snapshot.</text>
+  <rect x="66" y="275" width="294" height="118" rx="13" fill="#131A29" stroke="#FFFFFF" stroke-opacity=".08"/>
+  <circle cx="99" cy="312" r="17" fill="#222448"/><path d="M91 314c4-5 12-5 16 0M99 304v9" stroke="#AEA7FF" stroke-width="1.8" stroke-linecap="round"/>
+  <text x="129" y="312" fill="#8591A7" font-family="Arial,sans-serif" font-size="11">RESUME SCORE</text>
+  <text x="88" y="361" fill="#F4F5FA" font-family="Arial,sans-serif" font-size="31" font-weight="700">82</text><text x="133" y="361" fill="#7F8CA3" font-family="Arial,sans-serif" font-size="13">/ 100</text>
+  <rect x="211" y="336" width="120" height="5" rx="2.5" fill="#242A3B"/><rect x="211" y="336" width="98" height="5" rx="2.5" fill="url(#accent)"/>
+  <rect x="379" y="275" width="294" height="118" rx="13" fill="#131A29" stroke="#FFFFFF" stroke-opacity=".08"/>
+  <circle cx="412" cy="312" r="17" fill="#1A3040"/><path d="m403 313 6 6 12-14" stroke="#74D3DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="442" y="312" fill="#8591A7" font-family="Arial,sans-serif" font-size="11">ROLE MATCH</text>
+  <text x="401" y="354" fill="#F4F5FA" font-family="Arial,sans-serif" font-size="25" font-weight="700">76%</text><text x="482" y="352" fill="#9BA6BA" font-family="Arial,sans-serif" font-size="12">ML Engineer</text>
+  <text x="401" y="374" fill="#69D4BE" font-family="Arial,sans-serif" font-size="10">+12% this week</text>
+  <rect x="692" y="275" width="294" height="118" rx="13" fill="#131A29" stroke="#FFFFFF" stroke-opacity=".08"/>
+  <circle cx="725" cy="312" r="17" fill="#372C23"/><path d="M725 302v11l8 5" stroke="#F0BF73" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="755" y="312" fill="#8591A7" font-family="Arial,sans-serif" font-size="11">APPLICATIONS</text>
+  <text x="714" y="361" fill="#F4F5FA" font-family="Arial,sans-serif" font-size="31" font-weight="700">12</text>
+  <rect x="779" y="339" width="39" height="20" rx="10" fill="#18352E"/><text x="789" y="353" fill="#8DE3BD" font-family="Arial,sans-serif" font-size="10">4 active</text>
+  <rect x="66" y="416" width="594" height="250" rx="14" fill="#111824" stroke="#FFFFFF" stroke-opacity=".08"/>
+  <text x="91" y="451" fill="#E9ECF4" font-family="Arial,sans-serif" font-size="14" font-weight="700">Your next best matches</text><text x="567" y="451" fill="#A39AFF" font-family="Arial,sans-serif" font-size="10">SEE ALL  ›</text>
+  <rect x="90" y="472" width="544" height="69" rx="10" fill="#171E2D"/>
+  <circle cx="122" cy="506" r="20" fill="#243242"/><path d="M115 513v-13l7-5 7 5v13m-10 0v-7h6v7" stroke="#9EB8D1" stroke-width="1.5" stroke-linejoin="round"/>
+  <text x="155" y="497" fill="#E2E7F0" font-family="Arial,sans-serif" font-size="12" font-weight="700">Junior Machine Learning Engineer</text><text x="155" y="518" fill="#8996AC" font-family="Arial,sans-serif" font-size="10">Nova Labs · Remote · Entry level</text>
+  <rect x="546" y="489" width="68" height="28" rx="14" fill="#202845"/><text x="562" y="507" fill="#B8B1FF" font-family="Arial,sans-serif" font-size="10" font-weight="700">86% fit</text>
+  <rect x="90" y="554" width="544" height="69" rx="10" fill="#171E2D"/>
+  <circle cx="122" cy="588" r="20" fill="#30263B"/><path d="M114 596v-13h16v13m-12-17h8m-4 0v4" stroke="#D3A7EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="155" y="579" fill="#E2E7F0" font-family="Arial,sans-serif" font-size="12" font-weight="700">AI Software Developer</text><text x="155" y="600" fill="#8996AC" font-family="Arial,sans-serif" font-size="10">BrightPath Tech · Hybrid · Graduate</text>
+  <rect x="546" y="571" width="68" height="28" rx="14" fill="#202845"/><text x="562" y="589" fill="#B8B1FF" font-family="Arial,sans-serif" font-size="10" font-weight="700">79% fit</text>
+  <rect x="679" y="416" width="447" height="250" rx="14" fill="#111824" stroke="#FFFFFF" stroke-opacity=".08"/>
+  <text x="705" y="451" fill="#E9ECF4" font-family="Arial,sans-serif" font-size="14" font-weight="700">Prep plan</text>
+  <text x="705" y="471" fill="#8793A9" font-family="Arial,sans-serif" font-size="10">A small step today makes a difference.</text>
+  <circle cx="723" cy="511" r="12" fill="#1A382F"/><path d="m718 511 4 4 7-8" stroke="#71D6AA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="748" y="508" fill="#E0E5EF" font-family="Arial,sans-serif" font-size="11">Update project highlights</text><text x="748" y="526" fill="#718098" font-family="Arial,sans-serif" font-size="9">RESUME · COMPLETED</text>
+  <circle cx="723" cy="560" r="12" fill="#242442"/><text x="720" y="564" fill="#B0A8FF" font-family="Arial,sans-serif" font-size="10" font-weight="700">2</text>
+  <text x="748" y="557" fill="#E0E5EF" font-family="Arial,sans-serif" font-size="11">Practice a behavioral interview</text><text x="748" y="575" fill="#718098" font-family="Arial,sans-serif" font-size="9">INTERVIEW PRACTICE · 15 MIN</text>
+  <circle cx="723" cy="609" r="12" fill="#242442"/><text x="720" y="613" fill="#B0A8FF" font-family="Arial,sans-serif" font-size="10" font-weight="700">3</text>
+  <text x="748" y="606" fill="#E0E5EF" font-family="Arial,sans-serif" font-size="11">Review Python fundamentals</text><text x="748" y="624" fill="#718098" font-family="Arial,sans-serif" font-size="9">LEARNING GOAL · 20 MIN</text>
+  <g filter="url(#shadow)"><rect x="1010" y="281" width="116" height="111" rx="16" fill="#18213A" stroke="#877DFF" stroke-opacity=".5"/></g>
+  <circle cx="1068" cy="326" r="24" fill="url(#accent)"/><path d="m1068 309 5 11 12 6-12 5-5 12-5-12-12-5 12-6 5-11Z" fill="#F7F6FF"/>
+  <text x="1031" y="371" fill="#CED4E8" font-family="Arial,sans-serif" font-size="10" font-weight="700">SMART COACH</text>
+</svg>

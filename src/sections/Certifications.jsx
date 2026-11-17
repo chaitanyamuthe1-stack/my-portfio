@@ -13,7 +13,7 @@ export default function Certifications() {
       <div className="mx-auto max-w-7xl">
         <SectionTitle
           eyebrow="Credentials"
-          title="Certifications"
+          title="Certifications & Professional Learning"
           description="Verified certificates and completed learning credentials."
           icon={<Award size={16} />}
         />

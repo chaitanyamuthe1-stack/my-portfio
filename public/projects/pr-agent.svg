@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="750" gradientUnits="userSpaceOnUse"><stop stop-color="#111A2B"/><stop offset="1" stop-color="#080B12"/></linearGradient>
+    <linearGradient id="glow" x1="635" y1="150" x2="1080" y2="620" gradientUnits="userSpaceOnUse"><stop stop-color="#296DFF" stop-opacity=".2"/><stop offset="1" stop-color="#36D6B0" stop-opacity=".04"/></linearGradient>
+  </defs>
+  <rect width="1200" height="750" rx="28" fill="url(#bg)"/><circle cx="1000" cy="120" r="240" fill="#3477FF" fill-opacity=".1"/>
+  <rect x="34" y="34" width="1132" height="682" rx="22" fill="#0B1019" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <path d="M56 35h1088a22 22 0 0 1 22 22v48H34V57a22 22 0 0 1 22-22Z" fill="#121A28"/>
+  <circle cx="62" cy="68" r="7" fill="#FA6D6D"/><circle cx="86" cy="68" r="7" fill="#F5C45A"/><circle cx="110" cy="68" r="7" fill="#63D39B"/>
+  <rect x="178" y="53" width="180" height="30" rx="8" fill="#19243A"/><path d="m194 64 5 5-5 5m13 0h14" stroke="#91A8FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="234" y="73" fill="#DDE5F5" font-family="Arial,sans-serif" font-size="12">PR #284 · auth/session</text>
+  <text x="66" y="146" fill="#F4F6FC" font-family="Arial,sans-serif" font-size="23" font-weight="700">Pull request review</text>
+  <text x="66" y="171" fill="#8B97AD" font-family="Arial,sans-serif" font-size="13">Session refresh · 8 files changed · updated 4 min ago</text>
+  <rect x="914" y="127" width="211" height="43" rx="11" fill="#123026" stroke="#49C896" stroke-opacity=".38"/>
+  <circle cx="936" cy="148" r="6" fill="#5DE2A7"/><text x="951" y="152" fill="#B7F5D7" font-family="Arial,sans-serif" font-size="12" font-weight="700">Review complete</text>
+  <rect x="66" y="203" width="690" height="449" rx="14" fill="#0F1520" stroke="#FFFFFF" stroke-opacity=".09"/>
+  <rect x="66" y="203" width="690" height="44" rx="14" fill="#151E2D"/><path d="M66 233h690v14H66v-14Z" fill="#151E2D"/>
+  <circle cx="91" cy="225" r="7" fill="#F0C67D"/><text x="110" y="230" fill="#DAE0EC" font-family="Arial,sans-serif" font-size="13">src/auth/session.py</text><text x="677" y="230" fill="#7D899F" font-family="Arial,sans-serif" font-size="11">+12  −4</text>
+  <rect x="67" y="248" width="688" height="55" fill="#122019"/><rect x="67" y="303" width="688" height="55" fill="#122019"/>
+  <text x="87" y="273" fill="#637084" font-family="monospace" font-size="12">41</text><text x="124" y="273" fill="#77C79B" font-family="monospace" font-size="13">+  async def refresh_session(token: str):</text>
+  <text x="87" y="328" fill="#637084" font-family="monospace" font-size="12">42</text><text x="124" y="328" fill="#77C79B" font-family="monospace" font-size="13">+      return await store.rotate(token)</text>
+  <text x="87" y="386" fill="#637084" font-family="monospace" font-size="12">43</text><text x="124" y="386" fill="#AEB8CA" font-family="monospace" font-size="13">   async def revoke_session(token: str):</text>
+  <rect x="67" y="405" width="688" height="56" fill="#27171A"/><text x="87" y="439" fill="#637084" font-family="monospace" font-size="12">44</text>
+  <text x="124" y="439" fill="#E7978E" font-family="monospace" font-size="13">-      await store.delete(token)</text>
+  <rect x="67" y="461" width="688" height="56" fill="#122019"/><text x="87" y="495" fill="#637084" font-family="monospace" font-size="12">44</text>
+  <text x="124" y="495" fill="#77C79B" font-family="monospace" font-size="13">+      await store.delete(token, user_id=user.id)</text>
+  <path d="M124 541h557" stroke="#FFFFFF" stroke-opacity=".07"/>
+  <text x="87" y="575" fill="#637084" font-family="monospace" font-size="12">45</text><text x="124" y="575" fill="#AEB8CA" font-family="monospace" font-size="13">   return Response(status_code=204)</text>
+  <rect x="790" y="203" width="335" height="449" rx="14" fill="url(#glow)" stroke="#FFFFFF" stroke-opacity=".09"/>
+  <rect x="790" y="203" width="335" height="46" rx="14" fill="#151E2D"/><path d="M790 235h335v14H790v-14Z" fill="#151E2D"/>
+  <text x="815" y="232" fill="#F2F4FA" font-family="Arial,sans-serif" font-size="14" font-weight="700">AI findings</text>
+  <rect x="815" y="271" width="285" height="99" rx="11" fill="#231C19" stroke="#E8A85C" stroke-opacity=".32"/>
+  <circle cx="838" cy="296" r="10" fill="#4A321E"/><path d="M838 290v7m0 4h.01" stroke="#FFC474" stroke-width="2" stroke-linecap="round"/>
+  <text x="858" y="300" fill="#FFD18F" font-family="Arial,sans-serif" font-size="11" font-weight="700">HIGH · CWE-639</text>
+  <text x="831" y="328" fill="#E6E9F0" font-family="Arial,sans-serif" font-size="13">Session could be revoked</text>
+  <text x="831" y="347" fill="#A2ADBF" font-family="Arial,sans-serif" font-size="11">without verifying token ownership.</text>
+  <rect x="815" y="385" width="285" height="101" rx="11" fill="#171D2A" stroke="#7189FF" stroke-opacity=".32"/>
+  <circle cx="838" cy="410" r="10" fill="#202E4A"/><path d="M834 410h8m-4-4v8" stroke="#9AACFF" stroke-width="1.7" stroke-linecap="round"/>
+  <text x="858" y="414" fill="#AFC0FF" font-family="Arial,sans-serif" font-size="11" font-weight="700">SUGGESTED FIX</text>
+  <text x="831" y="442" fill="#E6E9F0" font-family="Arial,sans-serif" font-size="12">Bind the session to the signed-in</text>
+  <text x="831" y="461" fill="#A2ADBF" font-family="Arial,sans-serif" font-size="12">user before deleting the token.</text>
+  <rect x="815" y="510" width="135" height="38" rx="9" fill="#425CF5"/><text x="840" y="534" fill="white" font-family="Arial,sans-serif" font-size="12" font-weight="700">Apply suggestion</text>
+  <rect x="962" y="510" width="138" height="38" rx="9" fill="#FFFFFF" fill-opacity=".045" stroke="#FFFFFF" stroke-opacity=".1"/><text x="989" y="534" fill="#C5CDDB" font-family="Arial,sans-serif" font-size="12">View diff</text>
+  <rect x="66" y="672" width="1059" height="1" fill="#FFFFFF" fill-opacity=".07"/>
+  <circle cx="88" cy="692" r="7" fill="#61D7A5"/><text x="104" y="697" fill="#9AA5B9" font-family="Arial,sans-serif" font-size="11">Static analysis passed</text>
+  <circle cx="270" cy="692" r="7" fill="#61D7A5"/><text x="286" y="697" fill="#9AA5B9" font-family="Arial,sans-serif" font-size="11">Tests passed</text>
+  <text x="976" y="697" fill="#8290A7" font-family="Arial,sans-serif" font-size="11">2 findings · 1 suggestion</text>
+</svg>

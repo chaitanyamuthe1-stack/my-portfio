@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="0" x2="1160" y2="720" gradientUnits="userSpaceOnUse"><stop stop-color="#111A2A"/><stop offset="1" stop-color="#080C14"/></linearGradient>
+    <linearGradient id="bars" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#64D7BC"/><stop offset="1" stop-color="#398F9C"/></linearGradient>
+    <linearGradient id="line" x1="400" y1="460" x2="1050" y2="300" gradientUnits="userSpaceOnUse"><stop stop-color="#7285FF"/><stop offset="1" stop-color="#53D8CF"/></linearGradient>
+  </defs>
+  <rect width="1200" height="750" rx="28" fill="url(#bg)"/><circle cx="1044" cy="116" r="225" fill="#46BFAE" fill-opacity=".07"/>
+  <rect x="34" y="34" width="1132" height="682" rx="22" fill="#0B111A" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <path d="M56 35h1088a22 22 0 0 1 22 22v51H34V57a22 22 0 0 1 22-22Z" fill="#131C29"/>
+  <circle cx="62" cy="68" r="7" fill="#FA6D6D"/><circle cx="86" cy="68" r="7" fill="#F5C45A"/><circle cx="110" cy="68" r="7" fill="#63D39B"/>
+  <text x="68" y="148" fill="#F4F6FA" font-family="Arial,sans-serif" font-size="23" font-weight="700">Sales overview</text>
+  <text x="68" y="174" fill="#8794A9" font-family="Arial,sans-serif" font-size="12">Track revenue, margins and order trends across your business.</text>
+  <rect x="866" y="127" width="110" height="35" rx="8" fill="#131D2A" stroke="#FFFFFF" stroke-opacity=".1"/><text x="884" y="149" fill="#BEC7D5" font-family="Arial,sans-serif" font-size="10">2024  ⌄</text>
+  <rect x="987" y="127" width="139" height="35" rx="8" fill="#131D2A" stroke="#FFFFFF" stroke-opacity=".1"/><text x="1005" y="149" fill="#BEC7D5" font-family="Arial,sans-serif" font-size="10">All regions  ⌄</text>
+  <g>
+    <rect x="68" y="202" width="247" height="109" rx="12" fill="#111A25" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <text x="90" y="230" fill="#8794A9" font-family="Arial,sans-serif" font-size="10" font-weight="700">TOTAL SALES</text>
+    <text x="90" y="272" fill="#F4F6FA" font-family="Arial,sans-serif" font-size="27" font-weight="700">$2.48M</text>
+    <rect x="210" y="245" width="75" height="23" rx="11" fill="#17342D"/><text x="222" y="261" fill="#79DDB1" font-family="Arial,sans-serif" font-size="9">↑ 12.8%</text>
+    <text x="90" y="293" fill="#748198" font-family="Arial,sans-serif" font-size="9">vs. previous year</text>
+    <rect x="330" y="202" width="247" height="109" rx="12" fill="#111A25" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <text x="352" y="230" fill="#8794A9" font-family="Arial,sans-serif" font-size="10" font-weight="700">NET PROFIT</text>
+    <text x="352" y="272" fill="#F4F6FA" font-family="Arial,sans-serif" font-size="27" font-weight="700">$286.4K</text>
+    <rect x="486" y="245" width="75" height="23" rx="11" fill="#17342D"/><text x="498" y="261" fill="#79DDB1" font-family="Arial,sans-serif" font-size="9">↑ 8.3%</text>
+    <text x="352" y="293" fill="#748198" font-family="Arial,sans-serif" font-size="9">11.5% profit margin</text>
+    <rect x="592" y="202" width="247" height="109" rx="12" fill="#111A25" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <text x="614" y="230" fill="#8794A9" font-family="Arial,sans-serif" font-size="10" font-weight="700">ORDERS</text>
+    <text x="614" y="272" fill="#F4F6FA" font-family="Arial,sans-serif" font-size="27" font-weight="700">5,128</text>
+    <rect x="748" y="245" width="75" height="23" rx="11" fill="#17342D"/><text x="760" y="261" fill="#79DDB1" font-family="Arial,sans-serif" font-size="9">↑ 6.1%</text>
+    <text x="614" y="293" fill="#748198" font-family="Arial,sans-serif" font-size="9">Average order $484</text>
+    <rect x="854" y="202" width="272" height="109" rx="12" fill="#111A25" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <text x="876" y="230" fill="#8794A9" font-family="Arial,sans-serif" font-size="10" font-weight="700">AVG. DISCOUNT</text>
+    <text x="876" y="272" fill="#F4F6FA" font-family="Arial,sans-serif" font-size="27" font-weight="700">15.7%</text>
+    <rect x="1035" y="245" width="73" height="23" rx="11" fill="#382922"/><text x="1046" y="261" fill="#E7AD76" font-family="Arial,sans-serif" font-size="9">↓ 1.2%</text>
+    <text x="876" y="293" fill="#748198" font-family="Arial,sans-serif" font-size="9">discount rate</text>
+  </g>
+  <rect x="68" y="331" width="673" height="334" rx="13" fill="#101823" stroke="#FFFFFF" stroke-opacity=".08"/>
+  <text x="92" y="366" fill="#E8ECF3" font-family="Arial,sans-serif" font-size="13" font-weight="700">Sales &amp; profit trend</text>
+  <text x="92" y="387" fill="#78869C" font-family="Arial,sans-serif" font-size="10">Monthly performance through the year</text>
+  <circle cx="566" cy="362" r="4" fill="#5CD1B7"/><text x="578" y="366" fill="#AAB4C4" font-family="Arial,sans-serif" font-size="9">Sales</text>
+  <circle cx="641" cy="362" r="4" fill="#8291FF"/><text x="653" y="366" fill="#AAB4C4" font-family="Arial,sans-serif" font-size="9">Profit</text>
+  <path d="M108 432h599M108 482h599M108 532h599M108 582h599" stroke="#FFFFFF" stroke-opacity=".055"/>
+  <text x="91" y="435" fill="#6C7A90" font-family="Arial,sans-serif" font-size="8">$300k</text><text x="91" y="485" fill="#6C7A90" font-family="Arial,sans-serif" font-size="8">$200k</text><text x="91" y="535" fill="#6C7A90" font-family="Arial,sans-serif" font-size="8">$100k</text><text x="98" y="585" fill="#6C7A90" font-family="Arial,sans-serif" font-size="8">$0</text>
+  <g fill="url(#bars)">
+    <rect x="132" y="511" width="20" height="71" rx="4"/><rect x="180" y="486" width="20" height="96" rx="4"/>
+    <rect x="228" y="494" width="20" height="88" rx="4"/><rect x="276" y="455" width="20" height="127" rx="4"/>
+    <rect x="324" y="468" width="20" height="114" rx="4"/><rect x="372" y="431" width="20" height="151" rx="4"/>
+    <rect x="420" y="444" width="20" height="138" rx="4"/><rect x="468" y="411" width="20" height="171" rx="4"/>
+    <rect x="516" y="423" width="20" height="159" rx="4"/><rect x="564" y="389" width="20" height="193" rx="4"/>
+    <rect x="612" y="400" width="20" height="182" rx="4"/><rect x="660" y="372" width="20" height="210" rx="4"/>
+  </g>
+  <path d="m142 536 48-15 48 7 48-25 48 6 48-19 48 12 48-22 48 4 48-24 48 10 48-27" stroke="url(#line)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#8F9EFF"><circle cx="142" cy="536" r="3.5"/><circle cx="190" cy="521" r="3.5"/><circle cx="238" cy="528" r="3.5"/><circle cx="286" cy="503" r="3.5"/><circle cx="334" cy="509" r="3.5"/><circle cx="382" cy="490" r="3.5"/><circle cx="430" cy="502" r="3.5"/><circle cx="478" cy="480" r="3.5"/><circle cx="526" cy="484" r="3.5"/><circle cx="574" cy="460" r="3.5"/><circle cx="622" cy="470" r="3.5"/><circle cx="670" cy="443" r="3.5"/></g>
+  <text x="133" y="605" fill="#748198" font-family="Arial,sans-serif" font-size="8">JAN</text><text x="229" y="605" fill="#748198" font-family="Arial,sans-serif" font-size="8">MAR</text><text x="325" y="605" fill="#748198" font-family="Arial,sans-serif" font-size="8">MAY</text><text x="421" y="605" fill="#748198" font-family="Arial,sans-serif" font-size="8">JUL</text><text x="517" y="605" fill="#748198" font-family="Arial,sans-serif" font-size="8">SEP</text><text x="613" y="605" fill="#748198" font-family="Arial,sans-serif" font-size="8">NOV</text>
+  <rect x="760" y="331" width="366" height="334" rx="13" fill="#101823" stroke="#FFFFFF" stroke-opacity=".08"/>
+  <text x="784" y="366" fill="#E8ECF3" font-family="Arial,sans-serif" font-size="13" font-weight="700">Sales by category</text>
+  <text x="784" y="387" fill="#78869C" font-family="Arial,sans-serif" font-size="10">Share of total revenue</text>
+  <circle cx="942" cy="489" r="76" stroke="#202B38" stroke-width="23"/>
+  <circle cx="942" cy="489" r="76" stroke="#5CD1B7" stroke-width="23" stroke-dasharray="195 283" transform="rotate(-90 942 489)" stroke-linecap="round"/>
+  <circle cx="942" cy="489" r="76" stroke="#8291FF" stroke-width="23" stroke-dasharray="112 366" stroke-dashoffset="-204" transform="rotate(-90 942 489)" stroke-linecap="round"/>
+  <circle cx="942" cy="489" r="76" stroke="#E7B665" stroke-width="23" stroke-dasharray="77 401" stroke-dashoffset="-325" transform="rotate(-90 942 489)" stroke-linecap="round"/>
+  <text x="913" y="487" fill="#F3F5FA" font-family="Arial,sans-serif" font-size="18" font-weight="700">3</text><text x="902" y="505" fill="#8290A5" font-family="Arial,sans-serif" font-size="9">CATEGORIES</text>
+  <circle cx="793" cy="594" r="4" fill="#5CD1B7"/><text x="806" y="598" fill="#AAB4C4" font-family="Arial,sans-serif" font-size="9">Technology</text><text x="900" y="598" fill="#DFE4ED" font-family="Arial,sans-serif" font-size="9">48%</text>
+  <circle cx="935" cy="594" r="4" fill="#8291FF"/><text x="948" y="598" fill="#AAB4C4" font-family="Arial,sans-serif" font-size="9">Furniture</text><text x="1038" y="598" fill="#DFE4ED" font-family="Arial,sans-serif" font-size="9">29%</text>
+  <circle cx="793" cy="622" r="4" fill="#E7B665"/><text x="806" y="626" fill="#AAB4C4" font-family="Arial,sans-serif" font-size="9">Office supplies</text><text x="900" y="626" fill="#DFE4ED" font-family="Arial,sans-serif" font-size="9">23%</text>
+</svg>

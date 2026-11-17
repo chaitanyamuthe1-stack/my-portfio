@@ -1,7 +1,5 @@
-import { useEffect, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
-import { useReducedMotion } from "framer-motion";
-import { ArrowDownRight, ArrowUpRight, Mail, UserRound } from "lucide-react";
+import { motion, useReducedMotion } from "framer-motion";
+import { ArrowDownRight, ArrowUpRight, Mail } from "lucide-react";
 import { Github, Linkedin } from "../components/BrandIcons";
 import Button from "../components/Button";
 import { portfolioData } from "../data/portfolioData";
@@ -20,21 +18,7 @@ const socialLabels = {
 
 export default function Hero() {
   const { personal } = portfolioData;
-  const [roleIndex, setRoleIndex] = useState(0);
   const prefersReducedMotion = useReducedMotion();
-
-  useEffect(() => {
-    if (prefersReducedMotion || personal.animatedRoles.length < 2) {
-      setRoleIndex(0);
-      return undefined;
-    }
-
-    const intervalId = window.setInterval(() => {
-      setRoleIndex((current) => (current + 1) % personal.animatedRoles.length);
-    }, 2600);
-
-    return () => window.clearInterval(intervalId);
-  }, [personal.animatedRoles, prefersReducedMotion]);
 
   return (
     <section
@@ -51,7 +35,7 @@ export default function Hero() {
         <div className="cyber-grid absolute inset-0 opacity-30 [mask-image:linear-gradient(to_bottom,black,transparent_90%)]" />
       </div>
 
-      <div className="mx-auto grid w-full max-w-7xl items-center gap-12 lg:grid-cols-[1.08fr_0.92fr] lg:gap-8">
+      <div className="mx-auto grid w-full max-w-7xl items-center gap-14 lg:grid-cols-[1.12fr_0.88fr] lg:gap-8">
         <motion.div
           initial="hidden"
           animate="visible"
@@ -61,83 +45,54 @@ export default function Hero() {
           }}
           className="relative z-10 order-1 lg:order-1"
         >
-          <motion.div
-            variants={fadeUp}
-            className="mb-7 inline-flex items-center gap-2.5 rounded-full border border-primary/25 bg-surface/65 px-3.5 py-2 font-mono text-[11px] uppercase tracking-[0.12em] text-textLight shadow-[0_8px_32px_rgba(4,8,20,0.35)] backdrop-blur-xl sm:text-xs"
-          >
-            <span className="relative flex h-2 w-2">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accentCyan/60" />
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-accentCyan" />
-            </span>
-            Final year <span className="text-primary">/</span> Class of{" "}
-            {personal.expectedGraduation}
-          </motion.div>
-
           <motion.p
             variants={fadeUp}
-            className="mb-3 font-mono text-xs font-medium uppercase tracking-[0.38em] text-accentCyan sm:text-sm"
+            className="mb-4 font-mono text-xs font-medium uppercase tracking-[0.32em] text-accentCyan sm:text-sm"
           >
-            HELLO, I’M
+            HELLO, I'M
           </motion.p>
 
           <motion.h1
             variants={fadeUp}
-            className="max-w-3xl text-[clamp(3.2rem,8vw,6.6rem)] font-bold uppercase leading-[0.93] tracking-[-0.075em] text-white"
+            className="max-w-4xl text-[clamp(3rem,8vw,6.6rem)] font-bold leading-[0.91] tracking-[-0.045em] text-white"
           >
             <span className="block">Chaitanya</span>
-            <span className="mt-1 block bg-gradient-to-r from-white via-[#9dc1ff] to-[#a88bff] bg-clip-text text-transparent">
-              Muthe<span className="text-primary">.</span>
+            <span className="mt-1 block bg-gradient-to-r from-[#f1f7ff] via-[#b9d8ff] to-[#7eb5ff] bg-clip-text text-transparent">
+              Muthe{" "}.
             </span>
           </motion.h1>
 
           <motion.div
             variants={fadeUp}
-            className="mt-7 flex min-h-8 items-center gap-2.5 text-sm font-medium text-textLight sm:mt-8 sm:text-base"
+            className="mt-7 flex items-center gap-3 text-base font-semibold leading-7 text-white sm:mt-8 sm:text-lg"
           >
-            <span className="h-px w-7 bg-gradient-to-r from-primary to-secondary sm:w-10" />
-            <span>{personal.professionalTitle}</span>
+            <span aria-hidden="true" className="h-8 w-1 shrink-0 rounded-full bg-gradient-to-b from-accentCyan to-primary" />
+            <span>Aspiring AI/ML Engineer &amp; Software Developer</span>
           </motion.div>
 
           <motion.div
             variants={fadeUp}
-            className="mt-4 flex min-h-8 items-center gap-2 font-mono text-xs text-textMuted sm:text-sm"
-            aria-live="polite"
-            aria-atomic="true"
+            className="mt-3 max-w-xl text-sm leading-6 text-textMuted sm:text-base"
           >
-            <span className="text-primary">&gt;_</span>
-            <span>Exploring</span>
-            <span className="relative inline-flex min-w-[12.5rem] overflow-hidden text-accentCyan sm:min-w-[15rem]">
-              <AnimatePresence mode="wait" initial={false}>
-                <motion.span
-                  key={personal.animatedRoles[roleIndex]}
-                  initial={{ opacity: 0, y: 12, filter: "blur(5px)" }}
-                  animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-                  exit={{ opacity: 0, y: -10, filter: "blur(4px)" }}
-                  transition={{
-                    duration: prefersReducedMotion ? 0 : 0.35,
-                    ease: "easeOut",
-                  }}
-                  className="whitespace-nowrap"
-                >
-                  {personal.animatedRoles[roleIndex]}
-                </motion.span>
-              </AnimatePresence>
-              <span className="ml-1 inline-block h-4 w-px animate-pulse bg-accentCyan" />
-            </span>
+            Final-Year Engineering Student | Artificial Intelligence &amp;
+            Machine Learning
           </motion.div>
 
           <motion.p
             variants={fadeUp}
-            className="mt-6 max-w-xl text-sm leading-7 text-textMuted sm:text-base sm:leading-8"
+            className="mt-6 max-w-2xl text-sm leading-7 text-textMuted sm:text-base sm:leading-8"
           >
-            {personal.heroDescription}
+            I build intelligent applications, explore emerging technologies, and
+            transform innovative ideas into practical real-world solutions
+            through code, creativity, and problem-solving.
           </motion.p>
 
           <motion.p
             variants={fadeUp}
-            className="mt-5 max-w-xl border-l border-primary/50 pl-4 text-sm font-medium leading-6 text-textLight/85 sm:text-base"
+            className="mt-5 max-w-2xl text-sm font-medium leading-6 text-textLight sm:text-base"
           >
-            “{personal.personalBrandTagline}”
+            Python Developer | AI &amp; Machine Learning | Software
+            Development
           </motion.p>
 
           <motion.div
@@ -154,19 +109,27 @@ export default function Hero() {
             <Button
               as="a"
               variant="secondary"
-              href={`/${personal.resumeFileName}`}
-              download
+              href="#contact"
             >
-              Download Resume
+              Get In Touch
               <ArrowUpRight size={16} />
             </Button>
           </motion.div>
 
           <motion.div
             variants={fadeUp}
-            className="mt-8 flex items-center gap-3 border-t border-white/[0.08] pt-5"
+            className="mt-8 flex flex-wrap items-center gap-x-3 gap-y-3 border-t border-white/[0.08] pt-5"
             aria-label="Social profiles"
           >
+            <a
+              href={`/${personal.resumeFileName}`}
+              download
+              className="inline-flex min-h-11 items-center gap-2 rounded-lg px-2 text-sm font-medium text-textLight transition-colors hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+            >
+              Download Resume
+              <ArrowUpRight size={15} aria-hidden="true" />
+            </a>
+            <span aria-hidden="true" className="h-5 w-px bg-white/10" />
             {Object.entries(socialIcons).map(([key, Icon]) => {
               const label = socialLabels[key];
               const href = personal.socialLinks[key];
@@ -196,10 +159,6 @@ export default function Hero() {
                 </span>
               );
             })}
-            <span className="ml-1 h-5 w-px bg-white/10" />
-            <span className="text-xs text-textMuted">
-              B.Tech <span className="text-primary">·</span> AI &amp; ML
-            </span>
           </motion.div>
         </motion.div>
 
@@ -223,7 +182,7 @@ export default function Hero() {
           />
           <div
             aria-hidden="true"
-            className="absolute left-1/2 top-1/2 aspect-square w-[92%] -translate-x-1/2 -translate-y-1/2 rounded-full border border-dashed border-secondary/25 [animation:spin_48s_linear_infinite]"
+            className="absolute left-1/2 top-1/2 aspect-square w-[92%] -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/[0.06]"
           />
           <div
             aria-hidden="true"
@@ -243,7 +202,7 @@ export default function Hero() {
                 ) : (
                   <div
                     role="img"
-                    aria-label="Profile photograph placeholder"
+                    aria-label={`${personal.fullName} monogram`}
                     className="relative flex h-full flex-col items-center justify-center overflow-hidden"
                   >
                     <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-primary/10 to-transparent" />
@@ -251,18 +210,17 @@ export default function Hero() {
                       aria-hidden="true"
                       className="absolute left-1/2 top-[24%] h-40 w-40 -translate-x-1/2 rounded-full bg-primary/15 blur-3xl"
                     />
-                    <div className="relative flex h-32 w-32 items-center justify-center rounded-full border border-white/15 bg-gradient-to-br from-white/[0.08] to-primary/10 text-white/75 shadow-[0_0_55px_rgba(55,125,255,0.16)] sm:h-36 sm:w-36">
+                    <div className="relative flex h-36 w-36 items-center justify-center rounded-full border border-white/15 bg-gradient-to-br from-white/[0.08] to-primary/10 text-white/75 shadow-[0_0_55px_rgba(55,125,255,0.16)] sm:h-40 sm:w-40">
                       <div className="absolute inset-2 rounded-full border border-dashed border-accentCyan/25" />
-                      <UserRound
-                        className="h-[4.5rem] w-[4.5rem] text-accentCyan/85 sm:h-20 sm:w-20"
-                        strokeWidth={1}
-                      />
+                      <span className="bg-gradient-to-br from-white via-[#b9d8ff] to-[#7eb5ff] bg-clip-text text-6xl font-bold tracking-[-0.08em] text-transparent sm:text-7xl">
+                        CM
+                      </span>
                     </div>
-                    <p className="relative mt-7 font-mono text-[10px] uppercase tracking-[0.32em] text-accentCyan/90">
-                      Your portrait
+                    <p className="relative mt-7 font-mono text-[10px] uppercase tracking-[0.24em] text-accentCyan/90">
+                      Artificial Intelligence
                     </p>
-                    <p className="relative mt-2 text-xs text-textMuted/80">
-                      Add a profile photo
+                    <p className="relative mt-2 font-mono text-[10px] uppercase tracking-[0.24em] text-textMuted/80">
+                      Machine Learning
                     </p>
                   </div>
                 )}
@@ -280,32 +238,20 @@ export default function Hero() {
             <figcaption className="sr-only">
               {personal.profileImage
                 ? `Portrait of ${personal.fullName}`
-                : "Profile photograph placeholder"}
+                : `${personal.fullName} monogram`}
             </figcaption>
           </figure>
 
-          <motion.div
-            animate={prefersReducedMotion ? { y: 0 } : { y: [0, -5, 0] }}
-            transition={{
-              duration: 5,
-              repeat: prefersReducedMotion ? 0 : Infinity,
-              ease: "easeInOut",
-            }}
+          <div
             className="absolute -bottom-3 left-0 rounded-2xl border border-white/10 bg-[#0c1222]/90 px-4 py-3 shadow-xl backdrop-blur-xl sm:-left-3"
           >
             <p className="font-mono text-[10px] uppercase tracking-wider text-textMuted">
               Studying
             </p>
             <p className="mt-1 text-sm font-semibold text-white">AI &amp; ML</p>
-          </motion.div>
+          </div>
 
-          <motion.div
-            animate={prefersReducedMotion ? { y: 0 } : { y: [0, 5, 0] }}
-            transition={{
-              duration: 5.5,
-              repeat: prefersReducedMotion ? 0 : Infinity,
-              ease: "easeInOut",
-            }}
+          <div
             className="absolute right-0 top-[16%] rounded-2xl border border-primary/20 bg-[#0c1222]/90 px-4 py-3 shadow-xl backdrop-blur-xl sm:-right-2"
           >
             <p className="font-mono text-[10px] uppercase tracking-wider text-textMuted">
@@ -314,7 +260,7 @@ export default function Hero() {
             <p className="mt-1 text-sm font-semibold text-accentCyan">
               {personal.expectedGraduation}
             </p>
-          </motion.div>
+          </div>
         </motion.div>
       </div>
     </section>

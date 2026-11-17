@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="40" y1="40" x2="1160" y2="710" gradientUnits="userSpaceOnUse"><stop stop-color="#101A2D"/><stop offset="1" stop-color="#090D16"/></linearGradient>
+    <linearGradient id="camera" x1="650" y1="260" x2="1050" y2="570" gradientUnits="userSpaceOnUse"><stop stop-color="#203454"/><stop offset="1" stop-color="#101B2D"/></linearGradient>
+    <linearGradient id="face1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#DFB18E"/><stop offset="1" stop-color="#A96953"/></linearGradient>
+    <linearGradient id="face2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D8A582"/><stop offset="1" stop-color="#885944"/></linearGradient>
+  </defs>
+  <rect width="1200" height="750" rx="28" fill="url(#bg)"/>
+  <circle cx="1030" cy="128" r="220" fill="#43B9C1" fill-opacity=".08"/>
+  <rect x="34" y="34" width="1132" height="682" rx="22" fill="#0B111B" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <path d="M56 35h1088a22 22 0 0 1 22 22v50H34V57a22 22 0 0 1 22-22Z" fill="#121C2B"/>
+  <circle cx="62" cy="68" r="7" fill="#FA6D6D"/><circle cx="86" cy="68" r="7" fill="#F5C45A"/><circle cx="110" cy="68" r="7" fill="#63D39B"/>
+  <rect x="68" y="134" width="214" height="551" rx="14" fill="#0E1623" stroke="#FFFFFF" stroke-opacity=".07"/>
+  <circle cx="101" cy="174" r="15" fill="#17303B"/><path d="M94 175a7 7 0 1 0 14 0 7 7 0 0 0-14 0Z" stroke="#59D6C1" stroke-width="2"/><path d="M91 187c2-7 18-7 20 0" stroke="#59D6C1" stroke-width="2" stroke-linecap="round"/>
+  <text x="127" y="170" fill="#F2F5FB" font-family="Arial,sans-serif" font-size="14" font-weight="700">AttendAI</text><text x="127" y="188" fill="#8290A7" font-family="Arial,sans-serif" font-size="10">CLASSROOM</text>
+  <rect x="83" y="222" width="180" height="38" rx="9" fill="#142638"/><circle cx="103" cy="241" r="6" fill="#55D9C1"/><text x="120" y="246" fill="#DCE8F3" font-family="Arial,sans-serif" font-size="12">Live session</text>
+  <text x="97" y="294" fill="#738199" font-family="Arial,sans-serif" font-size="10" font-weight="700">WORKSPACE</text>
+  <circle cx="103" cy="328" r="5" fill="#65748D"/><text x="120" y="332" fill="#AAB5C6" font-family="Arial,sans-serif" font-size="12">Students</text>
+  <circle cx="103" cy="369" r="5" fill="#65748D"/><text x="120" y="373" fill="#AAB5C6" font-family="Arial,sans-serif" font-size="12">Timetable</text>
+  <circle cx="103" cy="410" r="5" fill="#65748D"/><text x="120" y="414" fill="#AAB5C6" font-family="Arial,sans-serif" font-size="12">Reports</text>
+  <path d="M83 446h180" stroke="#FFFFFF" stroke-opacity=".08"/><text x="97" y="478" fill="#738199" font-family="Arial,sans-serif" font-size="10" font-weight="700">TODAY'S CLASS</text>
+  <text x="97" y="507" fill="#E7EBF3" font-family="Arial,sans-serif" font-size="12" font-weight="700">Computer Vision</text>
+  <text x="97" y="528" fill="#8895AB" font-family="Arial,sans-serif" font-size="11">Room 204 · 10:30 AM</text>
+  <rect x="315" y="134" width="810" height="84" rx="13" fill="#111B29" stroke="#FFFFFF" stroke-opacity=".07"/>
+  <text x="345" y="169" fill="#F4F6FA" font-family="Arial,sans-serif" font-size="21" font-weight="700">Live attendance</text>
+  <text x="345" y="192" fill="#8996AA" font-family="Arial,sans-serif" font-size="12">AI &amp; ML · Semester VIII · Monday, 16 Nov</text>
+  <rect x="954" y="157" width="140" height="38" rx="10" fill="#173128" stroke="#46C89F" stroke-opacity=".36"/>
+  <circle cx="974" cy="176" r="5" fill="#5AE3B0"/><text x="989" y="180" fill="#B3F0D8" font-family="Arial,sans-serif" font-size="11" font-weight="700">SESSION ACTIVE</text>
+  <rect x="315" y="239" width="510" height="346" rx="14" fill="url(#camera)" stroke="#FFFFFF" stroke-opacity=".09"/>
+  <rect x="329" y="253" width="482" height="316" rx="10" fill="#17283D"/>
+  <path d="M329 471h482v98H329v-98Z" fill="#1B3048"/><path d="M329 497h482" stroke="#37506C" stroke-width="2"/>
+  <rect x="352" y="274" width="190" height="4" rx="2" fill="#3E5875"/><rect x="352" y="287" width="132" height="3" rx="1.5" fill="#354D69"/>
+  <rect x="355" y="330" width="187" height="186" rx="12" fill="#24354A"/>
+  <ellipse cx="449" cy="388" rx="42" ry="47" fill="url(#face1)"/><path d="M406 380c0-42 22-66 52-62 31 4 40 29 38 60-10-12-19-20-35-23-18-3-31 6-55 25Z" fill="#292834"/>
+  <path d="M374 516c8-65 36-94 75-94 44 0 69 27 77 94H374Z" fill="#6C7E9A"/>
+  <circle cx="437" cy="388" r="3" fill="#342723"/><circle cx="464" cy="388" r="3" fill="#342723"/><path d="M439 410c7 5 15 5 21 0" stroke="#784D40" stroke-width="2" stroke-linecap="round"/>
+  <rect x="574" y="330" width="187" height="186" rx="12" fill="#24354A"/>
+  <ellipse cx="667" cy="389" rx="42" ry="47" fill="url(#face2)"/><path d="M624 383c-2-42 22-67 51-65 29 1 43 24 40 55-12-17-25-23-46-21-19 2-29 12-45 31Z" fill="#20202A"/>
+  <path d="M592 516c8-65 36-94 75-94 44 0 69 27 77 94H592Z" fill="#536F87"/>
+  <circle cx="655" cy="389" r="3" fill="#342723"/><circle cx="682" cy="389" r="3" fill="#342723"/><path d="M656 410c7 5 15 5 21 0" stroke="#784D40" stroke-width="2" stroke-linecap="round"/>
+  <rect x="367" y="520" width="163" height="25" rx="12" fill="#0B111A" fill-opacity=".84"/><text x="382" y="537" fill="#E2E8F0" font-family="Arial,sans-serif" font-size="10">STUDENT  ·  A-1042</text>
+  <rect x="586" y="520" width="163" height="25" rx="12" fill="#0B111A" fill-opacity=".84"/><text x="601" y="537" fill="#E2E8F0" font-family="Arial,sans-serif" font-size="10">STUDENT  ·  A-1087</text>
+  <rect x="842" y="239" width="283" height="346" rx="14" fill="#111A27" stroke="#FFFFFF" stroke-opacity=".08"/>
+  <text x="866" y="274" fill="#E9EDF5" font-family="Arial,sans-serif" font-size="14" font-weight="700">Session overview</text>
+  <text x="866" y="297" fill="#8290A5" font-family="Arial,sans-serif" font-size="11">Recognition updates in real time</text>
+  <text x="866" y="347" fill="#64738A" font-family="Arial,sans-serif" font-size="10" font-weight="700">PRESENT</text><text x="866" y="393" fill="#F4F6FA" font-family="Arial,sans-serif" font-size="35" font-weight="700">28</text><text x="910" y="393" fill="#74849A" font-family="Arial,sans-serif" font-size="12">/ 32 students</text>
+  <rect x="866" y="410" width="235" height="7" rx="3.5" fill="#233044"/><rect x="866" y="410" width="206" height="7" rx="3.5" fill="#4BD2AE"/>
+  <rect x="866" y="444" width="235" height="1" fill="#FFFFFF" fill-opacity=".08"/>
+  <circle cx="882" cy="472" r="9" fill="#18382F"/><path d="m878 472 3 3 5-6" stroke="#61DDB1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="900" y="476" fill="#D7DFEA" font-family="Arial,sans-serif" font-size="11">28 recognized</text><text x="1067" y="476" fill="#75DAB5" font-family="Arial,sans-serif" font-size="11">88%</text>
+  <circle cx="882" cy="505" r="9" fill="#3D301E"/><circle cx="882" cy="505" r="3" fill="#F1C16C"/><text x="900" y="509" fill="#D7DFEA" font-family="Arial,sans-serif" font-size="11">4 not detected</text><text x="1060" y="509" fill="#F1C16C" font-family="Arial,sans-serif" font-size="11">Review</text>
+  <rect x="315" y="604" width="810" height="69" rx="13" fill="#101925" stroke="#FFFFFF" stroke-opacity=".07"/>
+  <circle cx="349" cy="638" r="17" fill="#18302F"/><path d="m342 638 5 5 10-11" stroke="#60DDB5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="380" y="634" fill="#E1E6EF" font-family="Arial,sans-serif" font-size="12" font-weight="700">Camera checks passed</text><text x="380" y="653" fill="#8592A7" font-family="Arial,sans-serif" font-size="11">Attendance is encrypted and ready to export.</text>
+  <rect x="948" y="622" width="150" height="34" rx="9" fill="#182A31" stroke="#52CDA8" stroke-opacity=".28"/><text x="975" y="644" fill="#9CE9CC" font-family="Arial,sans-serif" font-size="11">Export report  ↓</text>
+</svg>

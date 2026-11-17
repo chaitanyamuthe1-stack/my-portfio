@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="50" x2="1090" y2="720" gradientUnits="userSpaceOnUse"><stop stop-color="#11182B"/><stop offset="1" stop-color="#080B13"/></linearGradient>
+    <linearGradient id="poster1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E57C56"/><stop offset=".48" stop-color="#753C68"/><stop offset="1" stop-color="#172647"/></linearGradient>
+    <linearGradient id="poster2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F3B44E"/><stop offset=".55" stop-color="#A84531"/><stop offset="1" stop-color="#291E32"/></linearGradient>
+    <linearGradient id="poster3" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#56B6C5"/><stop offset=".5" stop-color="#315B91"/><stop offset="1" stop-color="#17223C"/></linearGradient>
+    <linearGradient id="poster4" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#AD7AEE"/><stop offset=".5" stop-color="#5545A0"/><stop offset="1" stop-color="#171A35"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#02040A" flood-opacity=".5"/></filter>
+  </defs>
+  <rect width="1200" height="750" rx="28" fill="url(#bg)"/>
+  <circle cx="1018" cy="142" r="205" fill="#5847B8" fill-opacity=".12"/>
+  <rect x="34" y="34" width="1132" height="682" rx="22" fill="#0C101A" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <path d="M56 35h1088a22 22 0 0 1 22 22v47H34V57a22 22 0 0 1 22-22Z" fill="#121825"/>
+  <circle cx="62" cy="68" r="7" fill="#FA6D6D"/><circle cx="86" cy="68" r="7" fill="#F5C45A"/><circle cx="110" cy="68" r="7" fill="#63D39B"/>
+  <rect x="418" y="54" width="360" height="28" rx="14" fill="#080B12" stroke="#FFFFFF" stroke-opacity=".08"/>
+  <circle cx="439" cy="68" r="5" stroke="#8E98AD" stroke-width="2"/><path d="m443 72 4 4" stroke="#8E98AD" stroke-width="2" stroke-linecap="round"/>
+  <text x="464" y="73" fill="#7E899F" font-family="Arial,sans-serif" font-size="12">Search films, genres, people...</text>
+  <text x="66" y="141" fill="#F7F8FC" font-family="Arial,sans-serif" font-size="26" font-weight="700">Made for your next movie night</text>
+  <text x="66" y="169" fill="#8994AA" font-family="Arial,sans-serif" font-size="14">A hand-picked mix based on what you enjoy</text>
+  <rect x="1019" y="124" width="106" height="34" rx="17" fill="#182137" stroke="#7792FF" stroke-opacity=".35"/>
+  <circle cx="1040" cy="141" r="7" fill="#8BA3FF"/><text x="1056" y="146" fill="#D9E1FF" font-family="Arial,sans-serif" font-size="12">For you</text>
+  <text x="66" y="224" fill="#F0F2F9" font-family="Arial,sans-serif" font-size="17" font-weight="700">Picked for Chaitanya</text>
+  <text x="1058" y="224" fill="#91A5FF" font-family="Arial,sans-serif" font-size="12">VIEW ALL  ›</text>
+  <g filter="url(#shadow)">
+    <rect x="66" y="245" width="245" height="321" rx="14" fill="#141B2A" stroke="#FFFFFF" stroke-opacity=".09"/>
+    <rect x="66" y="245" width="245" height="228" rx="14" fill="url(#poster1)"/>
+    <path d="M66 421c64-84 118-74 245-154v206H66v-52Z" fill="#09121F" fill-opacity=".43"/>
+    <circle cx="235" cy="304" r="60" fill="#F7BD83" fill-opacity=".55"/><path d="M110 445c30-67 57-93 82-107 41 21 65 61 85 107H110Z" fill="#172238"/>
+    <path d="M111 355c23-53 77-69 116-36" stroke="#FFE4C2" stroke-opacity=".62" stroke-width="6" stroke-linecap="round"/>
+    <rect x="82" y="261" width="58" height="22" rx="11" fill="#080A10" fill-opacity=".68"/><text x="96" y="276" fill="#F4F5FA" font-family="Arial,sans-serif" font-size="10">98% MATCH</text>
+    <text x="84" y="508" fill="#F6F7FB" font-family="Arial,sans-serif" font-size="16" font-weight="700">The Last Horizon</text>
+    <text x="84" y="532" fill="#95A0B4" font-family="Arial,sans-serif" font-size="12">Sci-fi  ·  Adventure  ·  2024</text>
+    <circle cx="286" cy="531" r="12" fill="#1C2944"/><path d="m282 531 3 3 6-7" stroke="#9CB1FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="84" y="545" width="98" height="4" rx="2" fill="#788BFF"/>
+    <rect x="327" y="245" width="245" height="321" rx="14" fill="#141B2A" stroke="#FFFFFF" stroke-opacity=".09"/>
+    <rect x="327" y="245" width="245" height="228" rx="14" fill="url(#poster2)"/>
+    <circle cx="452" cy="324" r="48" fill="#FFD47E" fill-opacity=".75"/><path d="M327 434c62-74 149-108 245-91v130H327v-39Z" fill="#311F34" fill-opacity=".85"/>
+    <path d="M365 427c25-41 56-63 87-66 37 15 61 39 80 66H365Z" fill="#1B1A2D"/>
+    <rect x="343" y="261" width="58" height="22" rx="11" fill="#080A10" fill-opacity=".68"/><text x="357" y="276" fill="#F4F5FA" font-family="Arial,sans-serif" font-size="10">95% MATCH</text>
+    <text x="345" y="508" fill="#F6F7FB" font-family="Arial,sans-serif" font-size="16" font-weight="700">After the Rain</text><text x="345" y="532" fill="#95A0B4" font-family="Arial,sans-serif" font-size="12">Drama  ·  Mystery  ·  2023</text>
+    <circle cx="552" cy="531" r="12" fill="#1C2944"/><path d="m548 531 3 3 6-7" stroke="#9CB1FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="345" y="545" width="98" height="4" rx="2" fill="#788BFF"/>
+    <rect x="588" y="245" width="245" height="321" rx="14" fill="#141B2A" stroke="#FFFFFF" stroke-opacity=".09"/>
+    <rect x="588" y="245" width="245" height="228" rx="14" fill="url(#poster3)"/>
+    <circle cx="706" cy="336" r="60" fill="#B5E5D6" fill-opacity=".56"/><path d="M588 426c52-26 99-92 245-95v142H588v-47Z" fill="#0C263B" fill-opacity=".76"/>
+    <path d="M605 432c43-57 71-70 113-83 42 21 70 48 94 83H605Z" fill="#15243A"/>
+    <rect x="604" y="261" width="58" height="22" rx="11" fill="#080A10" fill-opacity=".68"/><text x="618" y="276" fill="#F4F5FA" font-family="Arial,sans-serif" font-size="10">93% MATCH</text>
+    <text x="606" y="508" fill="#F6F7FB" font-family="Arial,sans-serif" font-size="16" font-weight="700">Blue Meridian</text><text x="606" y="532" fill="#95A0B4" font-family="Arial,sans-serif" font-size="12">Thriller  ·  Sci-fi  ·  2025</text>
+    <circle cx="813" cy="531" r="12" fill="#1C2944"/><path d="m809 531 3 3 6-7" stroke="#9CB1FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="606" y="545" width="98" height="4" rx="2" fill="#788BFF"/>
+    <rect x="849" y="245" width="245" height="321" rx="14" fill="#141B2A" stroke="#FFFFFF" stroke-opacity=".09"/>
+    <rect x="849" y="245" width="245" height="228" rx="14" fill="url(#poster4)"/>
+    <circle cx="976" cy="329" r="51" fill="#FFD2F3" fill-opacity=".57"/><path d="M849 429c75-59 132-69 245-32v76H849v-44Z" fill="#201635" fill-opacity=".88"/>
+    <path d="M873 433c40-56 79-79 117-78 41 19 65 43 84 78H873Z" fill="#151B33"/>
+    <rect x="865" y="261" width="58" height="22" rx="11" fill="#080A10" fill-opacity=".68"/><text x="879" y="276" fill="#F4F5FA" font-family="Arial,sans-serif" font-size="10">91% MATCH</text>
+    <text x="867" y="508" fill="#F6F7FB" font-family="Arial,sans-serif" font-size="16" font-weight="700">Echoes of Orion</text><text x="867" y="532" fill="#95A0B4" font-family="Arial,sans-serif" font-size="12">Fantasy  ·  Drama  ·  2022</text>
+    <circle cx="1074" cy="531" r="12" fill="#1C2944"/><path d="m1070 531 3 3 6-7" stroke="#9CB1FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="867" y="545" width="98" height="4" rx="2" fill="#788BFF"/>
+  </g>
+  <rect x="66" y="602" width="1028" height="75" rx="14" fill="#111725" stroke="#FFFFFF" stroke-opacity=".07"/>
+  <circle cx="99" cy="639" r="16" fill="#1E2B4A"/><path d="M99 631v16m-8-8h16" stroke="#9BAEFF" stroke-width="2" stroke-linecap="round"/>
+  <text x="128" y="634" fill="#E9ECF5" font-family="Arial,sans-serif" font-size="14" font-weight="700">Why these picks?</text>
+  <text x="128" y="655" fill="#8E9AAF" font-family="Arial,sans-serif" font-size="12">Matched from your favorite genres, ratings and viewing patterns.</text>
+  <text x="1008" y="645" fill="#91A5FF" font-family="Arial,sans-serif" font-size="12">REFINE TASTE  ›</text>
+</svg>

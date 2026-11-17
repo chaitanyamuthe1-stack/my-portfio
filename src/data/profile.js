@@ -21,11 +21,11 @@ export const personal = {
     "Machine Learning",
     "Modern Technology",
   ],
-  profileImage: "",
+  profileImage: "/profile-photo.png",
   socialLinks: {
-    github: "",
-    linkedin: "",
-    email: "",
+    github: "https://github.com/chaitanyamuthe1-stack",
+    linkedin: "https://www.linkedin.com/in/chaitanya-muthe-08ba86291",
+    email: "chaitanyamuthe1@gmail.com",
   },
   careerObjective:
     "Seeking engineering placement, internship, and early-career opportunities.",

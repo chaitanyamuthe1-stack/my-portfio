@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="60" y1="30" x2="1120" y2="720" gradientUnits="userSpaceOnUse"><stop stop-color="#172546"/><stop offset="1" stop-color="#0C1221"/></linearGradient>
+    <linearGradient id="hero" x1="300" y1="190" x2="1020" y2="480" gradientUnits="userSpaceOnUse"><stop stop-color="#EFC56E"/><stop offset=".48" stop-color="#F09A67"/><stop offset="1" stop-color="#B875E2"/></linearGradient>
+  </defs>
+  <rect width="1200" height="750" rx="28" fill="url(#bg)"/><circle cx="1010" cy="112" r="200" fill="#FFD36D" fill-opacity=".08"/>
+  <rect x="34" y="34" width="1132" height="682" rx="24" fill="#FBF8F1"/>
+  <path d="M58 34h1084a24 24 0 0 1 24 24v58H34V58a24 24 0 0 1 24-24Z" fill="#FFFDF8"/>
+  <circle cx="68" cy="73" r="17" fill="#FFCF69"/><path d="m68 58 4 11 11 4-11 4-4 11-4-11-11-4 11-4 4-11Z" fill="#FFF8E8"/>
+  <text x="98" y="70" fill="#293451" font-family="Arial,sans-serif" font-size="16" font-weight="700">Little Learners</text><text x="98" y="87" fill="#9096A4" font-family="Arial,sans-serif" font-size="9" letter-spacing="1">ADVENTURE AWAITS</text>
+  <rect x="887" y="55" width="189" height="36" rx="18" fill="#F1F2F7"/><circle cx="909" cy="73" r="11" fill="#F4B28F"/><path d="M901 78c3-8 13-8 16 0" fill="#6E83BB"/>
+  <text x="930" y="77" fill="#4C5364" font-family="Arial,sans-serif" font-size="11">Hi, Alex!</text><circle cx="1053" cy="73" r="3" fill="#969DAA"/><circle cx="1064" cy="73" r="3" fill="#969DAA"/>
+  <text x="68" y="143" fill="#6E7587" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1">YOUR LEARNING SPACE</text>
+  <text x="68" y="179" fill="#293451" font-family="Arial,sans-serif" font-size="26" font-weight="700">Ready for a new adventure?</text>
+  <text x="68" y="203" fill="#858B98" font-family="Arial,sans-serif" font-size="12">Pick a path, learn something new, and earn a badge!</text>
+  <rect x="68" y="227" width="1064" height="215" rx="20" fill="url(#hero)"/>
+  <circle cx="969" cy="297" r="83" fill="#FFE9B9" fill-opacity=".3"/><circle cx="1052" cy="362" r="47" fill="#FFF1C9" fill-opacity=".32"/>
+  <path d="M718 442c39-82 93-116 164-116 80 0 128 43 152 116H718Z" fill="#455985"/>
+  <path d="M772 442c25-70 61-106 110-106 54 0 94 34 117 106H772Z" fill="#D98161"/>
+  <ellipse cx="882" cy="302" rx="45" ry="51" fill="#C47D5D"/><path d="M836 300c-4-47 20-70 50-70 32 0 48 26 43 66-17-17-38-25-63-22-11 1-20 11-30 26Z" fill="#453342"/>
+  <circle cx="867" cy="305" r="3" fill="#47352F"/><circle cx="895" cy="305" r="3" fill="#47352F"/><path d="M868 324c8 6 17 6 25 0" stroke="#875545" stroke-width="2" stroke-linecap="round"/>
+  <path d="m966 262 7 14 15 2-11 10 3 15-14-7-13 7 2-15-11-10 15-2 7-14Z" fill="#FFF8E7"/><circle cx="1062" cy="275" r="7" fill="#FFFBED"/><circle cx="747" cy="282" r="5" fill="#FFF8E7"/>
+  <rect x="103" y="260" width="126" height="26" rx="13" fill="#FFFFFF" fill-opacity=".24"/><text x="122" y="277" fill="#FFFDF5" font-family="Arial,sans-serif" font-size="10" font-weight="700">TODAY'S QUEST</text>
+  <text x="103" y="332" fill="#FFFDF8" font-family="Arial,sans-serif" font-size="26" font-weight="700">Explore the world</text><text x="103" y="358" fill="#FFF9EA" font-family="Arial,sans-serif" font-size="13">of words and numbers</text>
+  <rect x="103" y="383" width="133" height="38" rx="19" fill="#FFFDF8"/><text x="125" y="407" fill="#555073" font-family="Arial,sans-serif" font-size="11" font-weight="700">Continue learning  ›</text>
+  <text x="68" y="488" fill="#313A52" font-family="Arial,sans-serif" font-size="16" font-weight="700">Choose your next chapter</text><text x="68" y="508" fill="#9298A5" font-family="Arial,sans-serif" font-size="10">Little steps lead to big discoveries.</text>
+  <rect x="68" y="527" width="326" height="131" rx="16" fill="#FFFFFF" stroke="#E9E8E3"/>
+  <rect x="85" y="544" width="77" height="95" rx="12" fill="#E9E4FF"/>
+  <circle cx="124" cy="581" r="22" fill="#9988EA"/><path d="M111 581h26m-13-13v26" stroke="#F9F6FF" stroke-width="4" stroke-linecap="round"/><circle cx="106" cy="565" r="4" fill="#FFB567"/><circle cx="143" cy="600" r="4" fill="#FFB567"/>
+  <text x="180" y="568" fill="#424B62" font-family="Arial,sans-serif" font-size="13" font-weight="700">Word Explorer</text><text x="180" y="589" fill="#9298A5" font-family="Arial,sans-serif" font-size="10">Read, listen &amp; discover</text>
+  <rect x="180" y="606" width="162" height="6" rx="3" fill="#EEEFF2"/><rect x="180" y="606" width="105" height="6" rx="3" fill="#9184E5"/><text x="180" y="632" fill="#858B98" font-family="Arial,sans-serif" font-size="9">CHAPTER 4 OF 6</text>
+  <rect x="412" y="527" width="326" height="131" rx="16" fill="#FFFFFF" stroke="#E9E8E3"/>
+  <rect x="429" y="544" width="77" height="95" rx="12" fill="#DFF4EA"/>
+  <path d="M444 608c14-25 34-40 54-45m-54 45c7-23 8-41 2-55m-2 55c19-10 37-13 55-9" stroke="#4CA77E" stroke-width="4" stroke-linecap="round"/><circle cx="446" cy="552" r="6" fill="#69C891"/><circle cx="494" cy="564" r="7" fill="#90D788"/>
+  <text x="524" y="568" fill="#424B62" font-family="Arial,sans-serif" font-size="13" font-weight="700">Nature Numbers</text><text x="524" y="589" fill="#9298A5" font-family="Arial,sans-serif" font-size="10">Count, sort &amp; solve</text>
+  <rect x="524" y="606" width="162" height="6" rx="3" fill="#EEEFF2"/><rect x="524" y="606" width="76" height="6" rx="3" fill="#61BE91"/><text x="524" y="632" fill="#858B98" font-family="Arial,sans-serif" font-size="9">CHAPTER 2 OF 5</text>
+  <rect x="756" y="527" width="376" height="131" rx="16" fill="#FFFFFF" stroke="#E9E8E3"/>
+  <rect x="773" y="544" width="77" height="95" rx="12" fill="#FFF0D7"/>
+  <circle cx="811" cy="585" r="22" fill="#F0B44E"/><path d="M811 551v7m0 54v7m-34-34h7m54 0h7m-58-24 5 5m38 38 5 5m0-48-5 5m-38 38-5 5" stroke="#E28D3B" stroke-width="3" stroke-linecap="round"/>
+  <text x="868" y="568" fill="#424B62" font-family="Arial,sans-serif" font-size="13" font-weight="700">Daily streak</text><text x="868" y="591" fill="#9298A5" font-family="Arial,sans-serif" font-size="10">You showed up 5 days in a row!</text>
+  <text x="868" y="628" fill="#E79A42" font-family="Arial,sans-serif" font-size="12" font-weight="700">⭐  3 badges earned</text>
+</svg>

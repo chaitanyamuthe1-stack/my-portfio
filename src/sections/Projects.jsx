@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { FolderGit2 } from "lucide-react";
 import ProjectCard from "../components/ProjectCard";
 import ProjectDetailsModal from "../components/ProjectDetailsModal";
@@ -68,15 +68,13 @@ export default function Projects() {
             layout
             className="grid items-stretch gap-5 md:grid-cols-2 lg:grid-cols-3"
           >
-            <AnimatePresence mode="popLayout">
-              {filteredProjects.map((project) => (
-                <ProjectCard
-                  key={project.id}
-                  project={project}
-                  onViewDetails={setSelectedProject}
-                />
-              ))}
-            </AnimatePresence>
+            {filteredProjects.map((project) => (
+              <ProjectCard
+                key={project.id}
+                project={project}
+                onViewDetails={setSelectedProject}
+              />
+            ))}
           </motion.div>
         ) : (
           <motion.div
