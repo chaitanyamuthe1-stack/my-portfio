@@ -66,9 +66,25 @@ export const skills = {
     {
       id: "database",
       name: "Database",
-      description: "Only include database skills you have used and confirmed.",
+      description: "Database technologies used in my projects.",
       icon: "Database",
-      skills: [],
+      skills: [
+        {
+          name: "SQLite",
+          description: "Used for local data persistence in AI Career Copilot and PR Agent.",
+          icon: "Database",
+        },
+        {
+          name: "PostgreSQL",
+          description: "Configured as the production database for Kids Learning Adventure.",
+          icon: "Database",
+        },
+        {
+          name: "Supabase",
+          description: "Used for PR Agent database schema and migrations.",
+          icon: "Database",
+        },
+      ],
     },
     {
       id: "tools",
